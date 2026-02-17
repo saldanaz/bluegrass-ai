@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LeadShield AI - Never Miss Another Customer Call</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo" data-i18n="logo">Bluegrass AI</div>
+            <div class="nav-right">
+                <ul class="nav-links">
+                    <li><a href="#problem" data-i18n="nav-problem">The Problem</a></li>
+                    <li><a href="#solution" data-i18n="nav-solution">The Solution</a></li>
+                    <li><a href="#needs" data-i18n="nav-needs">What We Offer</a></li>
+                    <li><a href="#questions" data-i18n="nav-quiz">Quick Quiz</a></li>
+                    <li><a href="#cta" data-i18n="nav-started">Get Started</a></li>
+                </ul>
+                <div class="language-selector">
+                    <button class="language-btn" id="langBtn">🌐 English</button>
+                    <div class="language-dropdown" id="langDropdown">
+                        <button class="lang-option" data-lang="en">English</button>
+                        <button class="lang-option" data-lang="es">Español</button>
+                        <button class="lang-option" data-lang="fr">Français</button>
+                        <button class="lang-option" data-lang="de">Deutsch</button>
+                        <button class="lang-option" data-lang="pt">Português</button>
+                        <button class="lang-option" data-lang="it">Italiano</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1 data-i18n="hero-title">Your Business Is Missing Leads Every Single Day</h1>
+            <p data-i18n="hero-subtitle">While you're busy, customers call and hang up. AI captures them instead of silence.</p>
+            <button class="btn btn-primary" onclick="scrollTo('questions')" data-i18n="hero-btn">Answer 3 Questions</button>
+        </div>
+    </section>
+
+    <!-- Problem Section -->
+    <section id="problem" class="problem">
+        <div class="container">
+            <h2 data-i18n="problem-title">The Reality Check</h2>
+            <div class="problem-grid">
+                <div class="problem-card">
+                    <h3 data-i18n="problem-card1-title">📞 Missed Calls = Lost Money</h3>
+                    <p data-i18n="problem-card1-text">The average local service business misses 15-20 calls per week. That's potential revenue walking away.</p>
+                </div>
+                <div class="problem-card">
+                    <h3 data-i18n="problem-card2-title">📱 Voicemail Is Dead</h3>
+                    <p data-i18n="problem-card2-text">Customers don't want to leave messages. They want answers. If you don't respond in 5 minutes, they call your competitor.</p>
+                </div>
+                <div class="problem-card">
+                    <h3 data-i18n="problem-card3-title">💰 What's This Costing You?</h3>
+                    <p data-i18n="problem-card3-text">20 missed calls/week × $500 average client value = $10,000/week in lost revenue.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solution Section -->
+    <section id="solution" class="solution">
+        <div class="container">
+            <h2 data-i18n="solution-title">The Solution: AI That Works While You Don't</h2>
+            <div class="solution-content">
+                <div class="solution-text">
+                    <h3 data-i18n="solution-subtitle\">LeadShield AI automatically:</h3>
+                    <ul class="solution-list">
+                        <li data-i18n="solution-feature1">✅ Detects when customers call but you can't answer</li>
+                        <li data-i18n="solution-feature2">✅ Sends them an instant SMS instead of voicemail</li>
+                        <li data-i18n="solution-feature3">✅ Keeps the lead warm while you finish your current job</li>
+                        <li data-i18n="solution-feature4">✅ Alerts you immediately so you can call back</li>
+                        <li data-i18n="solution-feature5">✅ Converts missed calls into booked appointments</li>
+                    </ul>
+                </div>
+                <div class="solution-image">
+                    <div class="feature-box">
+                        <p data-i18n="solution-step1"><strong>Customer Calls</strong></p>
+                        <p style="color: #666; padding: 10px 0;">↓</p>
+                        <p data-i18n="solution-step2"><strong>You're Busy</strong></p>
+                        <p style="color: #666; padding: 10px 0;">↓</p>
+                        <p data-i18n="solution-step3"><strong>AI Texts Them Instantly</strong></p>
+                        <p style="color: #666; padding: 10px 0;">↓</p>
+                        <p data-i18n="solution-step4"><strong style="color: #4CAF50;">Lead Captured (Not Lost)</strong></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Business Needs Section -->
+    <section id="needs" class="business-needs">
+        <div class="container">
+            <h2 data-i18n="needs-title">Your Complete Online Solution</h2>
+            <p class="section-subtitle" data-i18n="needs-subtitle">We handle everything your business needs to thrive online</p>
+            
+            <div class="needs-grid">
+                <div class="needs-card">
+                    <div class="needs-icon">📞</div>
+                    <h3 data-i18n="need-calls">Never Miss a Call</h3>
+                    <p data-i18n="need-calls-desc">AI detects missed calls and instantly notifies customers via SMS. Convert dropped calls into booked appointments.</p>
+                </div>
+
+                <div class="needs-card">
+                    <div class="needs-icon">💬</div>
+                    <h3 data-i18n="need-chat">Smart Chat Support</h3>
+                    <p data-i18n="need-chat-desc">AI-powered chatbot answers common questions 24/7. Qualify leads automatically while you sleep.</p>
+                </div>
+
+                <div class="needs-card">
+                    <div class="needs-icon">📱</div>
+                    <h3 data-i18n="need-web">Mobile-First Website</h3>
+                    <p data-i18n="need-web-desc">Professional website optimized for potential customers on phones. Get found on Google, convert browsers into clients.</p>
+                </div>
+
+                <div class="needs-card">
+                    <div class="needs-icon">📊</div>
+                    <h3 data-i18n="need-analytics">Real-Time Analytics</h3>
+                    <p data-i18n="need-analytics-desc">See exactly where your leads come from and which marketing works. Track every dollar spent.</p>
+                </div>
+
+                <div class="needs-card">
+                    <div class="needs-icon">📧</div>
+                    <h3 data-i18n="need-email">Email Campaigns</h3>
+                    <p data-i18n="need-email-desc">Professional email marketing to stay top-of-mind. Automated follow-ups turn prospects into repeat customers.</p>
+                </div>
+
+                <div class="needs-card">
+                    <div class="needs-icon">🌐</div>
+                    <h3 data-i18n="need-seo">Local SEO Optimization</h3>
+                    <p data-i18n="need-seo-desc">Get your business to the top of Google Maps searches. Show up first in your local area.</p>
+                </div>
+            </div>
+
+            <div class="needs-cta">
+                <p data-i18n="needs-promise">Stop juggling 10 different tools. One platform. One dashboard. Everything you need to grow.</p>
+                <button class="btn btn-primary btn-large" data-i18n="needs-btn">See Your Complete Toolkit</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Questions Section -->
+    <section id="questions" class="questions">
+        <div class="container">
+            <h2 data-i18n="questions-title">Answer These 3 Questions Honestly</h2>
+            <p class="section-subtitle" data-i18n="questions-subtitle">Most business owners answer these quietly and realize they're leaving money on the table</p>
+            
+            <div class="questions-grid">
+                <div class="question-card">
+                    <h3 data-i18n="q1-title">Question 1: How Many Calls Per Week?</h3>
+                    <div class="question-content">
+                        <p data-i18n="q1-text">On average, how many inbound customer calls do you miss per week (go to voicemail)?</p>
+                        <input type="number" placeholder="e.g., 15" class="input-field" id="missedCalls">
+                        <p class="question-hint" data-i18n="q1-hint">Don't overthink it - rough estimate is fine</p>
+                    </div>
+                </div>
+
+                <div class="question-card">
+                    <h3 data-i18n="q2-title">Question 2: What's Your Average Client Value?</h3>
+                    <div class="question-content">
+                        <p data-i18n="q2-text">What's the average revenue per customer job/service you perform?</p>
+                        <input type="number" placeholder="e.g., $500" class="input-field" id="avgValue">
+                        <p class="question-hint" data-i18n="q2-hint">Include labor + materials</p>
+                    </div>
+                </div>
+
+                <div class="question-card">
+                    <h3 data-i18n="q3-title">Question 3: What's Your Close Rate?</h3>
+                    <div class="question-content">
+                        <p data-i18n="q3-text">Of the calls you DO answer, what percentage become paying customers?</p>
+                        <input type="number" placeholder="e.g., 40" class="input-field" id="closeRate" max="100">
+                        <p class="question-hint" data-i18n="q3-hint">Enter as percentage (0-100)</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="calculation-section">
+                <button class="btn btn-secondary" onclick="calculateLoss()" data-i18n="calc-btn">Show Me The Math</button>
+                <div id="result" class="result" style="display: none;">
+                    <h3 data-i18n="result-title">Your Weekly Opportunity Cost</h3>
+                    <div class="result-box">
+                        <p data-i18n="result-text">You're likely leaving <span id="lostRevenue" class="highlight">$0</span> per week on the table</p>
+                        <p class="result-subtext" data-i18n="result-annual">That's <span id="annualRevenue" class="highlight">$0</span> per year in lost business.</p>
+                    </div>
+                    <p class="result-footer" data-i18n="result-footer">And these are just the leads you're MISSING. Imagine capturing them back.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing">
+        <div class="container">
+            <h2 data-i18n="pricing-title">Pricing That Pays For Itself</h2>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h3 data-i18n="pricing-starter">Starter</h3>
+                    <div class="price">$39<span data-i18n="pricing-month">/month</span></div>
+                    <ul>
+                        <li data-i18n="pricing-s1">✓ 1 phone number monitored</li>
+                        <li data-i18n="pricing-s2">✓ SMS alerts for missed calls</li>
+                        <li data-i18n="pricing-s3">✓ Basic AI notifications</li>
+                        <li data-i18n="pricing-s4">✓ Email support</li>
+                    </ul>
+                    <button class="btn btn-outline" data-i18n="pricing-btn">Get Started</button>
+                </div>
+
+                <div class="pricing-card featured">
+                    <div class="badge" data-i18n="pricing-popular">Most Popular</div>
+                    <h3 data-i18n="pricing-pro">Professional</h3>
+                    <div class="price">$79<span data-i18n="pricing-month">/month</span></div>
+                    <ul>
+                        <li data-i18n="pricing-p1">✓ 3 phone numbers</li>
+                        <li data-i18n="pricing-p2">✓ Smart SMS routing</li>
+                        <li data-i18n="pricing-p3">✓ Call transcription</li>
+                        <li data-i18n="pricing-p4">✓ Lead qualification AI</li>
+                        <li data-i18n="pricing-p5">✓ Priority support</li>
+                    </ul>
+                    <button class="btn btn-primary" data-i18n="pricing-trial">Start Free Trial</button>
+                </div>
+
+                <div class="pricing-card">
+                    <h3 data-i18n="pricing-ent">Enterprise</h3>
+                    <div class="price" data-i18n="pricing-custom">Custom</div>
+                    <ul>
+                        <li data-i18n="pricing-e1">✓ Unlimited numbers</li>
+                        <li data-i18n="pricing-e2">✓ Custom AI responses</li>
+                        <li data-i18n="pricing-e3">✓ API access</li>
+                        <li data-i18n="pricing-e4">✓ Dedicated account manager</li>
+                    </ul>
+                    <button class="btn btn-outline" data-i18n="pricing-contact">Contact Sales</button>
+                </div>
+            </div>
+            <p class="pricing-note" data-i18n="pricing-note">Not ready? Get a free week trial. No credit card needed.</p>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="cta" class="cta">
+        <div class="container">
+            <h2 data-i18n="cta-title">Stop Leaving Money On The Table</h2>
+            <p data-i18n="cta-subtitle">Join local contractors, plumbers, electricians, and service businesses already capturing every lead</p>
+            <div class="cta-buttons">
+                <button class="btn btn-primary btn-large" data-i18n="cta-btn1">Schedule 15-Min Demo</button>
+                <button class="btn btn-outline btn-large" data-i18n="cta-btn2">Start 7-Day Free Trial</button>
+            </div>
+            <p class="cta-subtext" data-i18n="cta-footer">No credit card. No commitment. See your first captured lead in minutes.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p data-i18n="footer-copy">&copy; 2026 Bluegrass AI. Your Complete Online Solution.</p>
+            <p data-i18n="footer-contact">Questions? Email: hello@bluegrassai.com | Phone: (555) 000-0000</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
